@@ -7,5 +7,4 @@ int main() {
     std::cin >> n;
     std::cout << binaryRepr(n) << std::endl;
     return 0;
-
 }
