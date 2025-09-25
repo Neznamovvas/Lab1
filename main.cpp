@@ -4,7 +4,9 @@
 int main() {
     
     unsigned int n;
+    std::cout << "Input positive number: ";
     std::cin >> n;
-    std::cout << binaryRepr(n) << std::endl;
+    std::cout << "Binary representation: " << binaryRepr(n) << std::endl;
     return 0;
+
 }
